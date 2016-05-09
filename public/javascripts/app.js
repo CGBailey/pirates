@@ -1,1 +1,1 @@
-angular.module('pirateApp', [])
+angular.module('pirateApp', ['ngRoute'])
