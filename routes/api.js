@@ -12,11 +12,10 @@ router.get('/pirates', function(req, res, next) {
 });
 
 router.post('/pirates', function(req, res, next) {
-  // console.log(knex);
-  // knex.select('*').from('pirates').then(function(pirates) {
-  //   console.log(pirates);
-  //   res.status(200).json(pirates);
-  // })
+  knex.select('*').from('pirates').then(function(pirates) {
+    console.log(pirates);
+    res.status(200).json(pirates);
+  })
 });
 
 module.exports = router;

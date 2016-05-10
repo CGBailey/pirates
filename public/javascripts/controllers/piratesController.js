@@ -11,9 +11,7 @@ angular.module("pirateApp")
     console.log(err);
   })
 
-  // $scope.edit = function(pirate){
-  //   pirateService.edit(pirate);
-  // }
+  
 
 
 }])
