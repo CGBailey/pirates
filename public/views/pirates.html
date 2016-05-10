@@ -1,1 +1,7 @@
 <h1>Pirates!</h1>
+<div class="container" ng-repeat="pirate in view.pirates">
+  <p> Name: <span ng-bind="pirate.name"></span></p>
+  <p>Poison: <span ng-bind="pirate.poison"></span></p>
+  <p>Accessory: <span ng-bind="pirate.accessory"></span></p>
+
+</div>
