@@ -1,7 +1,8 @@
 angular.module("pirateApp")
 .controller("PirateController", ['$scope', 'pirateService', function($scope, pirateService) {
   $scope.view = {};
-  $scope.view.pirateTest = "Avast matey!"
+  $scope.view.pirateTest = "Avast matey!";
+  $scope.view.newPirate = {};
 
   pirateService.all()
   .then(function(pirates){
@@ -11,7 +12,8 @@ angular.module("pirateApp")
     console.log(err);
   })
 
-  
+
+
 
 
 }])

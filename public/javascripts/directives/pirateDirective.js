@@ -4,4 +4,4 @@ angular.module('pirateApp')
   return {
     templateUrl: "./views/pirates.html"
   }
-})
+}) 
